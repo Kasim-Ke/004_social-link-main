@@ -72,8 +72,15 @@ p {
 
 .buttons:active {
   border: 1px solid hsl(0, 0%, 12%);
+  transform: scale(0.98);
 }
 
 button {
   text-align: center;
+}
+
+@media only screen and (min-width: 375px) {
+  .container {
+    max-width: 500px;
+  }
 }
